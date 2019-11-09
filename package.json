@@ -18,6 +18,7 @@
   "author": "Jan Buschtöns <buschtoens@gmail.com> (http://janbuschtoens.com)",
   "license": "MIT",
   "devDependencies": {
+    "@ember/jquery": "^1.1.0",
     "@ember/optional-features": "^1.0.0",
     "babel-eslint": "^10.0.3",
     "broccoli-asset-rev": "^3.0.0",
