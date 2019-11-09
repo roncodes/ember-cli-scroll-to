@@ -1,11 +1,12 @@
 import Ember from 'ember';
+import jQuery from 'jquery';
 
-const { $, run : { schedule }, computed } = Ember;
+const { run : { schedule }, computed } = Ember;
 
 const DEFAULT_DURATION = 700;
 const DEFAULT_PADDING  = 0;
 
-const $viewport = $('html, body');
+const $viewport = jQuery('html, body');
 
 export default Ember.Service.extend({
   duration: computed.alias('config.scroll-to.duration'),
